@@ -1,0 +1,24 @@
+{
+  "name": "openlist-proxy",
+  "version": "1.0.0",
+  "description": "OpenList proxy service for EdgeOne Pages",
+  "main": "functions/index.js",
+  "scripts": {
+    "dev": "edgeone pages dev",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "edgeone pages deploy",
+    "init": "edgeone pages init",
+    "link": "edgeone pages link"
+  },
+  "keywords": [
+    "edgeone",
+    "pages",
+    "proxy",
+    "openlist",
+    "serverless"
+  ],
+  "author": "",
+  "devDependencies": {
+    "edgeone": "^1.0.0"
+  }
+}
