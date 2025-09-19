@@ -80,44 +80,7 @@ export async function onRequestGet(context) {
     <div class="container">
         <div class="logo">🚀</div>
         <h1>OpenList Proxy</h1>
-        <div class="status">✅ 服务正在运行在 EdgeOne Pages</div>
-        
-        <div class="status">
-            <h2>服务状态</h2>
-            <p>OpenList 代理服务已成功部署到 EdgeOne Pages</p>
-            <p>时间: ${new Date().toLocaleString('zh-CN')}</p>
-        </div>
-
-        <div class="feature edgeone">
-            <h3>🌍 EdgeOne Pages 优势</h3>
-            <ul>
-                <li>全球 3200+ 边缘节点分布式部署</li>
-                <li>超低延迟访问体验</li>
-                <li>弹性扩容，自动负载均衡</li>
-                <li>Serverless 架构，免运维</li>
-            </ul>
-        </div>
-
-        <div class="feature">
-            <h3>🔒 安全特性</h3>
-            <ul>
-                <li>HMAC-SHA256 签名验证</li>
-                <li>请求过期时间检查</li>
-                <li>CORS 跨域支持</li>
-                <li>路径安全验证</li>
-            </ul>
-        </div>
-
-        <div class="feature">
-            <h3>⚡ 性能优势</h3>
-            <ul>
-                <li>EdgeOne 全球 CDN 加速</li>
-                <li>边缘计算处理</li>
-                <li>智能缓存优化</li>
-                <li>自动 HTTPS 加密</li>
-            </ul>
-        </div>
-    </div>
+        <div class="status">✅ 加速服务正在运行在 EdgeOne Pages</div>
 </body>
 </html>`;
 
